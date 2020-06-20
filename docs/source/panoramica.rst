@@ -1,0 +1,1 @@
+.. include:: ../../LEGGIMI.rst
