@@ -5,7 +5,7 @@ This repository contains the instructions for installing and running `Minetest <
 It is part of the `educational repository <http://www.coderdojofosso.it/download/>`_ to learn how to write code by blocks.
 Educational repository is an italian page because the material is used by an italian team of `CoderDojo <https://coderdojo.com/>`_.
 
-Exceptionally, this documentation is also in `Italian <https://github.com/bilardi/minetest/LEGGIMI.rst>`_ .
+Exceptionally, this documentation is also in `Italian <https://github.com/bilardi/minetest/blob/master/LEGGIMI.rst>`_ .
 
 The Minetest server version that you will install, it will already have the `Mesecons <http://mesecons.net/>`_ mods.
 
