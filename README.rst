@@ -5,7 +5,7 @@ This repository contains the instructions for installing and running `Minetest <
 It is part of the `educational repository <http://www.coderdojofosso.it/download/>`_ to learn how to write code by blocks.
 Educational repository is an italian page because the material is used by an italian team of `CoderDojo <https://coderdojo.com/>`_.
 
-Exceptionally, this documentation is also in `Italian <https://github.com/bilardi/minetest/blob/master/LEGGIMI.rst>`_ .
+Exceptionally, this documentation is primarily in `Italian <https://github.com/bilardi/minetest/blob/master/LEGGIMI.rst>`_ .
 
 The Minetest server version that you will install, it will already have the `Mesecons <http://mesecons.net/>`_ mods.
 
@@ -37,9 +37,9 @@ For Docker Desktop,
 
 .. code-block:: bash
 
-    git clone https://github.com/bilardi/minetest-server
+    git clone https://github.com/bilardi/minetest
     cd minetest
-    make # for checking the prerequisites
+    make # for printing the commands available
     make install # for deploying the minetest server on your client
 
 Minetest client
@@ -87,23 +87,18 @@ Play Online
 
 For playing on a Minetest server, you need 3 details: IP and port of the Minetest server, and if the server is private, the password.
 
-For Docker Desktop, if you have installed a local version of Minetest server on your client
-
-.. code-block:: bash
-
-    cd minetest
-    make ip # for printing your minetest server ip
-
 When you run the Minetest client,
 
 * click on **Join game** tab
-* digit the IP of your (docker) container that you'll have deployed in the **Address** input
+* digit the IP of your (docker) container that you'll have deployed in the **Address** (*) input
 * digit the port in **Port** input (on the right the Address input): default port is 30000
 * digit your **Name** (without spaces!) in the input further down
 * and in the gray rectangle input, digit the **Password** (*)
 
 (*) if you have installed a local Minetest server on your client by Docker Desktop,
-default password is created by **install.sh**: you can change it with that you want, before the deployment on (docker) container.
+
+* the address IP of the local version of Minetest server on your client is **127.0.0.1**
+* the default password is created by **install.sh**: you can change it with that you want, before the deployment on (docker) container.
 
 License
 #######

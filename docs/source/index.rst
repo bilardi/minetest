@@ -6,9 +6,14 @@
 Welcome to minetest's documentation!
 ====================================
 
+.. include:: overview.rst
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Contenuti
    
-   overview
-   panoramica
+   installation
+   usage
+   license
+   basics/getting-started
+   basics/transports
