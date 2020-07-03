@@ -8,6 +8,7 @@
 git clone https://github.com/bilardi/minetest
 cd minetest/docs
 pip3 install --upgrade -r requirements.txt # install your dependences
+sphinx-quickstart
 ```
 
 ### Usage
